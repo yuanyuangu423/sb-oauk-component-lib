@@ -1,0 +1,8 @@
+// src/styles/global.scss
+@use "./variables" as *;
+@use "./mixins" as *;
+
+// other global css
+html {
+  font-size: 62.5%;
+}
