@@ -4,7 +4,7 @@ import type { Meta, StoryObj } from '@storybook/vue3';
 import MyPage from './Page.vue';
 
 const meta = {
-  title: 'Example/Page',
+  title: 'FOUNDATION/Page',
   component: MyPage,
   render: () => ({
     components: { MyPage },

@@ -54,8 +54,8 @@
 </template>
 
 <script lang="ts" setup>
-import './page.css';
-import MyHeader from './Header.vue';
+import './page.scss';
+import MyHeader from '../Header/Header.vue';
 
 import { ref } from 'vue';
 
