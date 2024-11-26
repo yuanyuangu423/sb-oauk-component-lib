@@ -1,5 +1,5 @@
 
-@use "variables" as *;
+@use "./variables" as *;
 // mixins
 @mixin oauk-variant($bg-color, $font-size) {
   font-family: $oauk-font-family !important;

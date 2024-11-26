@@ -22,8 +22,8 @@
 </template>
 
 <script lang="ts" setup>
-import './header.css';
-import MyButton from './Button.vue';
+import './header.scss';
+import MyButton from '../Button/Button.vue';
 
 defineProps<{ user: { name: string } | null }>();
 
