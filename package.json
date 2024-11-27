@@ -1,15 +1,17 @@
 {
   "name": "sb-oauk-component-lib",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.1",
   "type": "module",
+  "main": "index.js",
+  "description": "Storybook component library for OA",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "npx chromatic --project-token=chpt_20a31194e6bceea"
+    "chromatic": "npx chromatic --project-token=chpt_20a31194e6bceea",
+    "publish": "npm publish"
   },
   "dependencies": {
     "@vue/compiler-sfc": "^3.5.12",
