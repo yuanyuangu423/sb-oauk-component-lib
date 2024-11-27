@@ -1,6 +1,6 @@
 {
   "name": "sb-oauk-component-lib",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "main": "index.js",
   "description": "Storybook component library for OA",
