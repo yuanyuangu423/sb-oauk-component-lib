@@ -50,9 +50,9 @@ const onClick = () => {
 </script>
 <style lang="scss" scoped>
 .icon {
-  background: url("src/assets/images/add.svg") center no-repeat;
+  background: url("../../../assets/images/add.svg") center no-repeat;
 }
 .icon-white {
-  background: url("src/assets/images/add-white.svg") center no-repeat;
+  background: url("@/assets/images/add-white.svg") center no-repeat;
 }
 </style>
