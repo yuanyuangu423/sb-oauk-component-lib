@@ -12,7 +12,7 @@ const meta = {
   tags: ['autodocs'],
   parameters: {
     actions: {
-      handles: ['mouseover', 'click .btn']
+      handles: ['mouseover', 'click .oauk-button']
     }
   },
   decorators: [withActions],

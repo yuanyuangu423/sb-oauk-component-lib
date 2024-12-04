@@ -1,6 +1,6 @@
 {
   "name": "sb-oauk-component-lib",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "type": "module",
   "main": "index.js",
   "description": "Storybook component library for OA",
@@ -26,6 +26,7 @@
     "@storybook/test": "^8.4.3",
     "@storybook/vue3": "^8.4.3",
     "@storybook/vue3-vite": "^8.4.3",
+    "@types/node": "^22.10.1",
     "@types/vue": "^2.0.0",
     "@vitejs/plugin-vue": "^5.1.4",
     "chromatic": "^11.18.1",
