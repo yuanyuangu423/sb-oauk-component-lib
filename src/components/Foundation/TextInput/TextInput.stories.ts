@@ -41,14 +41,14 @@ export const NumberText: Story = {
     type: "number",
     onBlur: fn(),
   },
-  play: async ({ canvasElement, args }) => {
-    const canvas = within(canvasElement);
-    const input = await canvas.getByPlaceholderText("please input a number");
-    await userEvent.click(input);
-    await userEvent.keyboard("123"); // 输入数字
-    await userEvent.tab(); // 触发 blur 事件
+  // play: async ({ canvasElement, args }) => {
+  //   const canvas = within(canvasElement);
+  //   const input = await canvas.getByPlaceholderText("please input a number");
+  //   await userEvent.click(input);
+  //   await userEvent.keyboard("123"); // 输入数字
+  //   await userEvent.tab(); // 触发 blur 事件
 
-    // 查看 fn() 被调用的情况
-    console.log(args.onBlur?.mock.calls); // 打印调用记录s
-  }
+  //   // 查看 fn() 被调用的情况
+  //   console.log(args.onBlur?.mock.calls); // 打印调用记录s
+  // }
 };
